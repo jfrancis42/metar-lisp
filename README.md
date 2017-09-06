@@ -131,7 +131,8 @@ CL-USER> (metar:taf "KSEA")
   (:*MAX-*TEMP . "") (:*MIN-*TEMP . ""))
  (:*UNITS (:*ALTIMETER . "inHg") (:*ALTITUDE . "ft") (:*TEMPERATURE . "C")
   (:*VISIBILITY . "sm") (:*WIND-*SPEED . "kt")))
-CL-USER> ````
+CL-USER>
+````
 
 The returned options are explained int he AVWX documentation page
 (link above), and can be easily referenced as an alist:
